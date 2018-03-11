@@ -1,0 +1,8 @@
+{
+  "port": 3030,
+  "routes": {
+      "/node_modules": "node_modules"
+   },
+  "files": [".app/**/*.{html,htm,css,js}","./app/*.{html,htm,css,js}"],
+  "server": { "baseDir": "./app" }
+}
